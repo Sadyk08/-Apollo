@@ -130,7 +130,7 @@ main {
 	top: 0;
 	left: 0;
 	background-image: url(../img/1.jpg);
-	background-position: 50% 0%;
+	background-position: 50% 0;
 	background-size: cover;
 	z-index: 1;
 }
@@ -643,20 +643,20 @@ h2{
     font-size: 20px;
 }
 div.icons-menu {
-    max-width: 320px;
+    max-width: 300px;
     margin-left: 185px;
 }
 div.icons-menu a:hover{
     background-color: green;
-    transition: 1.5s;
+
 
 
 }
 div.icons-menu a {
-    margin-right: 12px;
+    margin-right: 13px;
     background-color: #909090;
-    padding-bottom: 6px;
-    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 
 div.icons-menu i {

@@ -102,8 +102,22 @@ body{
 		transform: scale3d(0.5,0.5,1);
 	}
 }
+.content{
+	animation-name:boom ;
+	animation-duration:3s ;
+	left: 0;
+	position: absolute;
 
+}
+.action--menu{
 
+}
+
+@keyframes boom {
+	0% {left: -20%}
+
+	100% {left: 0}
+}
 a {
 	text-decoration: none;
 	color: var(--color-link);
@@ -683,9 +697,8 @@ div.icons-menu {
     margin-left: 185px;
 }
 div.icons-menu a:hover{
-    background-color: green;
-
-
+    background-color: black;
+	transition: 1.5s;
 
 }
 div.icons-menu a {
@@ -701,3 +714,17 @@ div.icons-menu i {
     text-align: center;
     width: 30px;
 }
+.gallery{
+	border: 1px;
+	border-radius: 9px;
+	margin: auto;
+	line-height: 40px;
+	width: 150px;
+	margin-top: 90px;
+	text-transform: uppercase;
+	color: black;
+}
+
+
+
+
